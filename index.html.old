@@ -55,20 +55,20 @@
 <body>
 
     <h1>Política de Privacidad — Gym Routines App</h1>
-    <p>Última actualización: 29 de abril de 2026</p>
+    <p>Última actualización: 12 de julio de 2025</p>
 
-    <hr>
+    ---
 
     <h2>1. Responsable del Tratamiento de Datos</h2>
-    <p>El responsable del tratamiento de sus datos personales a través de la aplicación "Gym Routines App" es:</p>
-    <ul>
-        <li><strong>JESUS GONZALEZ BADIA</strong></li>
-        <p>Para el ejercicio de los derechos de protección de datos via email puede dirigirse a:</p>
-        <li><strong>Correo electrónico de contacto:</strong> <a href="mailto:gymroutinesapp@proton.me">gymroutinesapp@proton.me</a></li>
-    </ul>
-    <p>Para el ejercicio de los derechos de protección de datos por vía postal, puede dirigirse a la dirección que se proporcionará previa solicitud a través del correo electrónico de contacto.</p>
+<p>El responsable del tratamiento de sus datos personales a través de la aplicación "Gym Routines App" es:</p>
+<ul>
+    <li><strong>JESUS GONZALEZ BADIA</strong></li>
+	<p>Para el ejercicio de los derechos de protección de datos via email puede dirigirse a:</p>
+    <li><strong>Correo electrónico de contacto:</strong> <a href="mailto:gymroutinesapp@proton.me">gymroutinesapp@proton.me</a></li>
+</ul>
+<p>Para el ejercicio de los derechos de protección de datos por vía postal, puede dirigirse a la dirección que se proporcionará previa solicitud a través del correo electrónico de contacto.</p>
 
-    <hr>
+    ---
 
     <h2>2. Información Recopilada, Finalidad y Base Legal</h2>
     <p>Esta aplicación recopila y utiliza su información personal únicamente con el propósito de proporcionar y mejorar la funcionalidad de la app, basándose en las siguientes finalidades y fundamentos legales:</p>
@@ -97,37 +97,22 @@
                 <li><strong>Base Legal:</strong> Ejecución de un contrato o relación de servicio con el usuario (Artículo 6.1 b del RGPD), al ser una funcionalidad principal de la aplicación.</li>
             </ul>
         </li>
-        <li><strong>Datos de salud y actividad física a través de Android Health Connect (opcional):</strong>
-            <ul>
-                <li><strong>Finalidad:</strong> Sincronización de entrenamientos completados con el ecosistema de salud del dispositivo Android. La app puede escribir en Health Connect los datos del entreno registrado (tipo de ejercicio, duración, calorías quemadas y frecuencia cardíaca media), y leer el peso corporal para facilitar el seguimiento del progreso. Estos datos se usan exclusivamente para mejorar la experiencia del usuario dentro de la app y sincronizar con otras apps de salud conectadas al dispositivo.</li>
-                <li><strong>Base Legal:</strong> Consentimiento explícito del usuario (Artículo 6.1 a del RGPD y Artículo 9.2 a del RGPD para datos de salud). El usuario debe conceder explícitamente los permisos de Health Connect la primera vez que guarda un entreno. Puede revocar estos permisos en cualquier momento desde los ajustes de Health Connect en su dispositivo.</li>
-                <li><strong>Datos accedidos en Health Connect:</strong>
-                    <ul>
-                        <li>Escritura: sesiones de ejercicio, calorías quemadas, frecuencia cardíaca</li>
-                        <li>Lectura: peso corporal</li>
-                    </ul>
-                </li>
-                <li><strong>Importante:</strong> Los datos de Health Connect no se comparten con terceros, no se almacenan en nuestros servidores y permanecen en el dispositivo del usuario y en el ecosistema de Health Connect. Gym Routines App no vende, alquila ni cede estos datos a ningún tercero bajo ninguna circunstancia.</li>
-            </ul>
-        </li>
     </ul>
 
-    <hr>
+    ---
 
     <h2>3. Terceros y Almacenamiento de la Información</h2>
     <p>No compartimos información personal de los usuarios con terceros, salvo por la infraestructura necesaria para el funcionamiento de la aplicación. Todos los datos se almacenan de forma segura a través de nuestro proveedor de servicios de base de datos:</p>
     <ul>
         <li><strong>Supabase:</strong> Los datos se almacenan en los servidores de Supabase (<a href="https://supabase.com" target="_blank" rel="noopener noreferrer">https://supabase.com</a>), que actúa como nuestro encargado del tratamiento. Hemos suscrito el correspondiente contrato de encargado del tratamiento con Supabase para garantizar el cumplimiento de la normativa de protección de datos.</li>
     </ul>
-    <p>Los datos accedidos a través de Android Health Connect permanecen en el dispositivo del usuario y en el ecosistema de Health Connect de Google. Gym Routines App no transfiere estos datos a nuestros servidores ni a terceros.</p>
 
-    <hr>
+    ---
 
     <h2>4. Periodo de Conservación de los Datos</h2>
-    <p>Los datos personales proporcionados se conservarán mientras el usuario mantenga su cuenta activa en la aplicación. Una vez que el usuario elimine su cuenta, estos serán suprimidos instantáneamente (El usuario tiene acceso directo a borrarlos desde la configuración de su perfil).</p>
-    <p>Los datos escritos en Android Health Connect quedan bajo el control del usuario en su dispositivo y pueden ser eliminados directamente desde la aplicación Health Connect en cualquier momento, independientemente del estado de la cuenta en Gym Routines App.</p>
+    <p>Los datos personales proporcionados se conservarán mientras el usuario mantenga su cuenta activa en la aplicación. Una vez que el usuario elimine su cuenta, estos serán suprimidos instantaneamente (El usuario tiene acceso directo a borrarlos desde la configuracion de su perfil).</p>
 
-    <hr>
+    ---
 
     <h2>5. Derechos del Usuario</h2>
     <p>De acuerdo con el Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), los usuarios tienen los siguientes derechos en relación con sus datos personales:</p>
@@ -139,7 +124,6 @@
         <li><strong>Derecho a la portabilidad de los datos:</strong> Recibir sus datos en un formato estructurado y de uso común, y transmitirlos a otro responsable.</li>
         <li><strong>Derecho de oposición:</strong> Oponerse al tratamiento de sus datos personales en determinadas circunstancias (por ejemplo, para fines de marketing directo).</li>
         <li><strong>Derechos en relación con decisiones individuales automatizadas:</strong> Incluida la elaboración de perfiles.</li>
-        <li><strong>Revocación de permisos de Health Connect:</strong> El usuario puede revocar en cualquier momento los permisos de Health Connect desde Ajustes del dispositivo → Health Connect → Permisos de aplicaciones → Gym Routines.</li>
     </ul>
     <p>Para ejercer cualquiera de estos derechos, el usuario puede:</p>
     <ul>
@@ -148,7 +132,7 @@
     </ul>
     <p>Además, si considera que el tratamiento de sus datos personales infringe la normativa, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong>, a través de su sitio web <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer">www.aepd.es</a>.</p>
 
-    <hr>
+    ---
 
     <h2>6. Contacto</h2>
     <p>Si tiene preguntas o necesita más información sobre nuestra política de privacidad, puede escribir a: <strong><a href="mailto:gymroutinesapp@proton.me">gymroutinesapp@proton.me</a></strong>.</p>
