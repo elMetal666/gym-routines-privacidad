@@ -145,10 +145,17 @@
         <div class="card">
             <h2>Apoya el Proyecto</h2>
             <p>Si te gusta Gym Routines y quieres ayudarme a seguir mejorando, ¡puedes invitarme a un café! Cada pequeña contribución me ayuda a mantener y desarrollar nuevas funcionalidades.</p>
-            <a href="https://paypal.me/jgbadia" class="btn">☕ Invítame a un café</a>
+            <a href="https://paypal.me/jgbadia" class="btn" id="paypal-link">☕ Invítame a un café</a>
         </div>
 
         <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia estoy en gymroutinesapp@proton.me</p>
     </div>
+    <script>
+  // Captura el clic en PayPal y avisa a la App en lugar de abrir el enlace aquí
+  document.getElementById('paypal-link').addEventListener('click', function(e) {
+    e.preventDefault(); // Evita que el iframe intente abrir PayPal
+    window.parent.postMessage({ type: 'DONATE_PAYPAL' }, '*'); // Avisa a la App
+  });
+</script>
 </body>
 </html>
