@@ -150,17 +150,28 @@
 
         <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia estoy en gymroutinesapp@proton.me</p>
     </div>
-    <script>
-    document.getElementById('paypal-link').addEventListener('click', function(e) {
-      e.preventDefault();
-      var message = { type: 'DONATE_PAYPAL' };
-      // 📱 Para Móvil (React Native WebView)
-      if (window.ReactNativeWebView) {
-        window.ReactNativeWebView.postMessage(JSON.stringify(message));
-      }
-      // 💻 Para Web (iframe)
-      else if (window.parent) {
-        window.parent.postMessage(message, '*');
+      <script>
+    // Esperamos a que la página termine de cargar para asegurarnos de que el botón existe
+    window.addEventListener('load', function() {
+      // Buscamos el botón por su ID, o por si acaso, buscando el enlace de paypal
+      var link = document.getElementById('paypal-link') || document.querySelector('a[href*="paypal.me"]');
+
+      if (link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault(); // Evitamos que el iframe navegue
+          var message = JSON.stringify({ type: 'DONATE_PAYPAL' });
+
+          // 📱 Para Móvil (React Native WebView)
+          if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+            window.ReactNativeWebView.postMessage(message);
+          }
+          // 💻 Para Web (iframe)
+          else if (window.parent) {
+            window.parent.postMessage(message, '*');
+          }
+        });
+      } else {
+        console.error('No se encontró el botón de PayPal');
       }
     });
   </script>
