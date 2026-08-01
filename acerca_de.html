@@ -151,11 +151,18 @@
         <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia estoy en gymroutinesapp@proton.me</p>
     </div>
     <script>
-  // Captura el clic en PayPal y avisa a la App en lugar de abrir el enlace aquí
-  document.getElementById('paypal-link').addEventListener('click', function(e) {
-    e.preventDefault(); // Evita que el iframe intente abrir PayPal
-    window.parent.postMessage({ type: 'DONATE_PAYPAL' }, '*'); // Avisa a la App
-  });
-</script>
+    document.getElementById('paypal-link').addEventListener('click', function(e) {
+      e.preventDefault();
+      var message = { type: 'DONATE_PAYPAL' };
+      // 📱 Para Móvil (React Native WebView)
+      if (window.ReactNativeWebView) {
+        window.ReactNativeWebView.postMessage(JSON.stringify(message));
+      }
+      // 💻 Para Web (iframe)
+      else if (window.parent) {
+        window.parent.postMessage(message, '*');
+      }
+    });
+  </script>
 </body>
 </html>
