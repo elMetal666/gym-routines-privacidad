@@ -76,20 +76,13 @@
             font-size: 16px;
             white-space: pre-line;
         }
-        /* Nuevo estilo para los medios (video e imagen) */
-        .media-container {
+        .screenshot {
             width: 100%;
             max-width: 300px;
-            margin: 15px auto;
+            display: block;
+            margin: 10px auto;
             border-radius: 16px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            overflow: hidden; /* Para que el video respete el border radius */
-        }
-        .media-container video,
-        .media-container img {
-            width: 100%;
-            height: auto;
-            display: block;
         }
         .caption {
             text-align: center;
@@ -104,33 +97,13 @@
             font-size: 14px;
             color: #888;
         }
-
-        /* Estilo para el botón de contacto directo */
-        .contact-btn {
-            display: block;
-            width: 100%;
-            max-width: 300px;
-            margin: 20px auto 0;
-            padding: 12px;
-            background-color: var(--accent);
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Añadido el logo que faltaba en el HTML -->
-        <img src="logo.png" class="logo" alt="Gym Routines Logo">
-
         <h1>Centro de Ayuda</h1>
         <p class="intro">¡Bienvenido al Centro de Ayuda de Gym Routines! Aquí encontrarás una pequeña explicación de la app. ¡Espero que te guste!</p>
 
-        <!-- SECCIÓN 1: Video de ejemplo -->
         <div class="card">
             <div class="card-header">
                 <span>📋</span>
@@ -142,23 +115,10 @@
 • Una vez en la pantalla selecciona la rutina que te interese ver.
 • Si te gusta la rutina y la quieres usar, simplemente pulsa el botón, la rutina se abrirá en modo Gym para hacerla y se guardará automáticamente en tu perfil.
 • También puedes guardarla directamente sin abrirla para usarla cuando quieras.</p>
-
-            <!-- Contenedor de video -->
-            <div class="media-container">
-                <!--
-                  Cambia 'src' por la ruta de tu video.
-                  Si usas YouTube, reemplaza toda la etiqueta <video> por un <iframe>.
-                  playsinline es VITAL para que se reproduzca en iOS dentro del WebView.
-                -->
-                <video autoplay muted loop playsinline>
-                    <source src="rutinas_predefinidas.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-            <p class="caption">Mira lo fácil que es guardar una rutina.</p>
+            <img src="rutinas_predefinidas.jpg" class="screenshot" alt="Rutinas">
+            <p class="caption">Rutinas predefinidas listas para usar.</p>
         </div>
 
-        <!-- SECCIÓN 2: Manteniendo imagen por si algunas secciones no tienen video -->
         <div class="card">
             <div class="card-header">
                 <span>✏️</span>
@@ -169,44 +129,12 @@
 1. Ve a la pestaña "Crear Nueva Rutina".
 2. Asigna un nombre y una descripción a tu rutina.
 3. Pulsa "Añadir Ejercicio" Escribe y selecciona los ejercicios de la lista.
-4. Para cada ejercicio, especifica el día y las notas si tienes alguna.
-5. En los ejercicios aeróbicos (correr, cinta, elíptica, etc...) igualmente selecciona los datos (km y tiempo). Añade superseries e incluso circuitos HIIT independientes dentro de la propia rutina.
+4. Para cada ejercicio, especifica el día, las series, repeticiones y peso.
+5. En los ejercicios aeróbicos (correr, cinta, elíptica, etc...) igualmente selecciona los datos (km y tiempo).
 6. Elige todos los ejercicios en tu plan semanal, configúralo como quieras.
 7. Guarda tu rutina para que aparezca en "Mis Rutinas" y puedas usarla.</p>
-
-            <!-- Contenedor de video -->
-            <div class="media-container">
-                <video autoplay muted loop playsinline>
-                    <source src="crear_rutina.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-            <p class="caption">Pantalla de creación de rutinas.</p>
-        </div>
-
-        <div class="card">
-            <div class="card-header">
-                <span>🏋️‍♂️</span>
-                <h2>5. Usar una Rutina</h2>
-            </div>
-            <p><strong>Es el momento de ir al Gym:</strong>
-
-1. En la pagina principal, pulsa en el icono "Mis rutinas"
-2. Elige la rutina que vayas a realizar y pulsa "usar"
-3. Una vez dentro de la rutina elige el dia y pulsa sobre el botón grande para comenzar
-4. En cada tarjeta, pulsa cada vez que completes una serie en el check completado (circulito de abajo de la tarjeta), y cuando completes todas las series, marca el check principal de la tarjeta que pone "Marcar como hecho" (Solo la primera vez tendrás que configurar series, reps, etc... despues, una vez hayas completado tu primer entrenamiento se cargarán tus datos automáticamente).
-5. Pasa al siguiente ejercicio y sigue hasta completar toda la rutina.
-6. Una vez completada, guarda la rutina. Si tienes un pulsometro, en la parte de arriba puedes introducir las pulsaciones medias en el entreno, tambien tienes un botón de pausa por si necesitas parar un momento y cuando esté todo listo, pulsa sobre el botón "Guardar" en la parte de arriba. Una vez aceptado, todo tu entreno se guardará en la base de datos, podrás consultarlo despues, tambien te aparecerá el coach con sus consejos y por ultimo la tarjeta personalizada para compartir tu entreno con tus amigos.
-7. Felicidades!! Has completado tu primer entrenamiento con Gym Routines.</p>
-
-            <!-- Contenedor de video -->
-            <div class="media-container">
-                <video autoplay muted loop playsinline>
-                    <source src="usar_rutina.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-            <p class="caption">Sigue estos pasos para completar tu entreno perfectamente.</p>
+            <img src="crear_rutina.jpg" class="screenshot" alt="Crear Rutina">
+            <p class="caption">Pantalla de creación de rutinas donde añades día, ejercicios, peso, repeticiones y series.</p>
         </div>
 
         <div class="card">
@@ -220,9 +148,7 @@
 2. Verás una lista de usuarios ordenada por su puntuación total.
 3. Tu posición se resaltará (si aplica).
 4. ¡Entrena más duro para subir de puesto!</p>
-            <div class="media-container">
-                <img src="clasificacion.jpg" alt="Clasificación">
-            </div>
+            <img src="clasificacion.jpg" class="screenshot" alt="Clasificación">
             <p class="caption">La tabla de clasificación muestra los usuarios mejor puntuados.</p>
         </div>
 
@@ -237,14 +163,11 @@
 2. Se generará una imagen con tu información y un mensaje predefinido.
 3. Selecciona la aplicación por la que deseas compartir (WhatsApp, Instagram, etc.).
 4. ¡Inspira a tus amigos con tu dedicación!</p>
-            <div class="media-container">
-                <img src="compartir.jpg" alt="Compartir">
-            </div>
+            <img src="compartir.jpg" class="screenshot" alt="Compartir">
             <p class="caption">Botón de compartir para mostrar tus avances.</p>
         </div>
 
-        <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia contáctame en:</p>
-        <a href="mailto:gymroutinesapp@proton.me" class="contact-btn">📧 Contactar por Email</a>
+        <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia estoy en gymroutinesapp@proton.me</p>
     </div>
 </body>
 </html>
