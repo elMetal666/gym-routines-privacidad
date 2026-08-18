@@ -138,10 +138,10 @@
             </div>
             <p>En esta pantalla podrás seleccionar la rutina que te interese y guardarla directamente en tu perfil de usuario para usarla cuando quieras, una vez en tu perfil, también podrás editarla para adaptarla a tus necesidades.
 
-1• Desde tu perfil, accede a "Rutinas Predefinidas"
-2• Una vez en la pantalla selecciona la rutina que te interese ver.
-3• Si te gusta la rutina y la quieres usar, simplemente pulsa el botón, la     rutina se abrirá en modo Gym para hacerla y se guardará automáticamente en tu perfil.
-4• También puedes guardarla directamente sin abrirla para usarla cuando quieras.</p>
+• Desde tu perfil, accede a "Rutinas Predefinidas"
+• Una vez en la pantalla selecciona la rutina que te interese ver.
+• Si te gusta la rutina y la quieres usar, simplemente pulsa el botón, la rutina se abrirá en modo Gym para hacerla y se guardará automáticamente en tu perfil.
+• También puedes guardarla directamente sin abrirla para usarla cuando quieras.</p>
 
             <!-- Contenedor de video -->
             <div class="media-container">
@@ -164,7 +164,7 @@
                 <span>✏️</span>
                 <h2>2. Crear una Nueva Rutina</h2>
             </div>
-            <p><strong>Personaliza tus entrenamientos como un profesional y con facilidad:</strong>
+            <p>Personaliza tus entrenamientos como un profesional y con facilidad:
 
 1. Ve a la pestaña "Crear Nueva Rutina".
 2. Asigna un nombre y una descripción a tu rutina.
@@ -211,31 +211,10 @@
 
         <div class="card">
             <div class="card-header">
-                <span>📋</span>
-                <h2>4. Planificador IA</h2>
-            </div>
-            <p><strong>Usando las herramientas más avanzadas:</strong>
-
-1. En la barra de abajo, pulsa en el icono Planificador, se abrirá una ventana donde se te mostrará un resumen de tu estado actual.
-2. Podras ver si hay desvalances en tu cuerpo, un estado general con las alertas (se puede configurar desde los ajustes), tambien verás el estado Muscular y de cardio.
-3. En el plan de acción, la Ia te da consejos por cada grupo muscular independiente y te informa de su estado.
-4. En la barra superior, de izquierda a derecha encontrarás el chat con la IA, el botón de creación automática de una rutina específica para ti (segun los ajustes), el botón de creacion de un mesociclo de 5 semanas y por último el botón de ajustes, aquí es donde debes ajustar el criterio de la IA, cuanto mas especifico, mejores consejos y rutinas te dará.
-<!-- Contenedor de video -->
-            <div class="media-container">
-                <video autoplay muted loop playsinline>
-                    <source src="planificador.mp4" type="video/mp4">
-                    Tu navegador no soporta la etiqueta de video.
-                </video>
-            </div>
-            <p class="caption">Analiza tu cuerpo en detalle.</p>
-        </div>
-
-        <div class="card">
-            <div class="card-header">
                 <span>🏆</span>
-                <h2>5. Consultar la Clasificación Global</h2>
+                <h2>4. Consultar la Clasificación Global</h2>
             </div>
-            <p><strong>Compite y ve tu progreso frente a otros usuarios:</strong>
+            <p>Compite y ve tu progreso frente a otros usuarios:
 
 1. Navega a la pestaña "Clasificación".
 2. Verás una lista de usuarios ordenada por su puntuación total.
@@ -250,9 +229,9 @@
         <div class="card">
             <div class="card-header">
                 <span>📤</span>
-                <h2>6. Compartir tu Progreso</h2>
+                <h2>5. Compartir tu Progreso</h2>
             </div>
-            <p><strong>Celebra tus logros compartiendo tu perfil o tu puesto en la liga con quien quieras:</strong>
+            <p>Celebra tus logros compartiendo tu perfil o tu puesto en la liga con quien quieras:
 
 1. Desde tu pantalla de "Perfil" o "Clasificación", busca el botón "Compartir".
 2. Se generará una imagen con tu información y un mensaje predefinido.
@@ -264,7 +243,7 @@
             <p class="caption">Botón de compartir para mostrar tus avances.</p>
         </div>
 
-        <p><strong>Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia contáctame en:</strong>
+        <p class="footer">Gracias por ser parte de la comunidad Gym Routines, para cualquier duda o sugerencia contáctame en:</p>
         <a href="mailto:gymroutinesapp@proton.me" class="contact-btn">📧 Contactar por Email</a>
     </div>
 </body>
